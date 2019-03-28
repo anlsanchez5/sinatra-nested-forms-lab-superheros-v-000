@@ -1,4 +1,5 @@
-class Team
+class Team < ActiveRecord::Base
+  has_many :heroes
   attr_accessor :name, :motto
   TEAMS = []
 
