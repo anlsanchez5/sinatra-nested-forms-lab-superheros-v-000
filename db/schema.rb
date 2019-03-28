@@ -10,14 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_03_28_180850) do
-
-  create_table "heroes", force: :cascade do |t|
-    t.string "name"
-    t.string "power"
-    t.string "bio"
-    t.integer "team_id"
-  end
+ActiveRecord::Schema.define(version: 2019_03_28_181036) do
 
   create_table "teams", force: :cascade do |t|
     t.string "name"
